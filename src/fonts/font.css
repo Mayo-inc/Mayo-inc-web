@@ -1,0 +1,42 @@
+@font-face {
+    font-family: calsans;
+    font-weight: 400;
+    font-display: auto;
+    src: url(calsans-static/CalSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: calsans;
+    font-weight: 500;
+    font-display: auto;
+    src: url(calsans-static/CalSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: calsans;
+    font-weight: 600;
+    font-display: auto;
+    src: url(calsans-static/CalSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: calsans;
+    font-weight: 700;
+    font-display: auto;
+    src: url(calsans-static/CalSans-Bold.ttf);
+}
+
+/* Google sans */
+@font-face {
+    font-family: google-sans;
+    font-weight: 400;
+    font-display: auto;
+    src: url(Google-sans/GoogleSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: google-sans;
+    font-weight: 500;
+    font-display: auto;
+    src: url(Google-sans/GoogleSans-Medium.ttf);
+}
