@@ -12,6 +12,9 @@ body {
     --bg-body: #ffffff;
     --bg-cool-linie: #000000;
     --bg-text-color: #000000;
+
+    --color-text-a: #8dabff;
+    --color-text-a-hover: #366cff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +22,9 @@ body {
         --bg-body: #000000;
         --bg-cool-linie: #ffffff;
         --bg-text-color: #ffffff;
+
+        --color-text-a: #bbcdff;
+        --color-text-a-hover: #7297ff;
 
     }
 }
@@ -73,6 +79,15 @@ body {
     font-family: google-sans;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+a {
+    font-weight: 600;
+    color: var(--color-text-a);
+}
+
+a:hover {
+    color: var(--color-text-a-hover);
 }
 
 .footer-cover {
